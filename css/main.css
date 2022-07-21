@@ -12,7 +12,7 @@ body {
 }
 
 .container{
-	max-width: 375px;
+	max-width: 1200px;
 	width: 90%;
 	margin: 0 auto;
 	display: flex;
@@ -52,12 +52,16 @@ header {
   	align-items: center;
 	flex-flow: column wrap;
 	text-align: center;
+	width: 100%;
 }
 
 header h1 {
 	border-bottom: 3px solid #77a466;
 	margin: 0;
-	padding: 38px 45px 20px 45px;
+	padding-top: 38px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 100%;
 }
 
 header h1 span {
@@ -166,6 +170,7 @@ footer {
   	justify-content: center;
   	align-items: center;
 	flex-flow: row wrap;
+	width: 100%;
 }
 footer span {
 	color: #77a466;
