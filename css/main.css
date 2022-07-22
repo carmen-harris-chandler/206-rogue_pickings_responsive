@@ -178,27 +178,54 @@ footer span {
 	font-size: 0.875em;
 	text-transform: lowercase;
 }
-/*
-@media screen and (min-width: 786px) {
-	
-	header h1 {
-		padding: 38px 0;
+
+
+
+@media all and (min-width:768px) {
+    /* Tablet styles here */
+
+	.bottom-section {
+		flex-flow: row;
+		justify-content: space-between;
 	}
+
+	.section-one,
+	.section-two,
+	.section-three {
+		flex-basis: 30%;
+		
+		height: 250px;
+		
+	}
+
+	.section-one,
+	.section-two {
+		padding-right: 15px;
+	}
+
+	.section-two,
+	.section-three {
+		padding-left: 15px;
+	}
+
+
+	.section-one h3 {
+		padding: 0;
+	}
+
 	
 	.section-two {
 		border-left: 1px solid #eee;
 		border-right: 1px solid #eee;
 	}
 
-	.section-two h3,
-	.section-three h3 {
-	padding: 10px 30px;
-	}
-
-	p {
-
-    	padding: 0 30px;
-	}
+	
 	
 }
-*/
+
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+
+
+ 
+}
